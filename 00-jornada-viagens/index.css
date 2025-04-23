@@ -19,20 +19,21 @@
 .cabecalho__navegacao {
     display: flex;
     gap: 2.5rem;
-}
-
-.cabecalho__navegacao--lista {
-    display: flex;
-    gap: 0.5rem;
     flex-wrap: wrap;
 }
 
-.cabecalho__navegacao--item a {
+.cabecalho__item a {
     color: var(--branco);
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+
+.botao-hamburguer {
+    display: none;
+    cursor: pointer;
 }
 
 .banner__img-wrapper {
