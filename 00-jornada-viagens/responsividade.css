@@ -1,0 +1,9 @@
+@media (max-width: 1000px) {
+  .cabecalho__navegacao {
+    display: none;
+  }
+
+  .botao-hamburguer {
+    display: block;
+  }
+}
