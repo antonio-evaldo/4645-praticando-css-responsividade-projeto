@@ -10,6 +10,10 @@
   .container {
     padding: 0 3.75rem;
   }
+
+  .pagamento__condicoes {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 600px) {
