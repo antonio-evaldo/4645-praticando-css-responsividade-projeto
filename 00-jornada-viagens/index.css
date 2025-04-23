@@ -59,7 +59,7 @@
 .container {
     max-width: 80rem;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 7.5rem;
 }
 
 .ofertas {
@@ -131,7 +131,6 @@ span.material-symbols-outlined {
     margin-bottom: 7rem;
 }
 
-.pagamento__imagens--grupo,
 .pagamento__condicoes {
     display: flex;
     gap: 1.5rem;
@@ -152,65 +151,18 @@ span.material-symbols-outlined {
     font-style: normal;
     font-weight: 400;
     line-height: 2rem;
-    width: 24rem;
-    max-width: 100%;
 }
 
-.pagamento__imagens--imagem-container {
-    flex: 1;
-}
-
-.pagamento__imagens--imagem-destaque {
-    margin-top: 1.25rem;
-}
-
-.pagamento__imagens--imagem {
-    max-width: 100%;
-}
-
-.depoimentos {
-    margin-bottom: 7rem;
-}
-
-.depoimentos__wrapper {
-    display: flex;
-    gap: 1.5rem;
-    align-items: stretch;
-}
-
-.depoimentos__item {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.depoimentos__texto {
-    color: var(--grafite, #222);
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.75rem;
-}
-
-.depoimentos__autor {
-    margin-top: 0.75rem;
-    display: flex;
+.pagamento__imagens {
+    display: grid;
+    grid-template-areas:
+        "img1 img2"
+        "img3 img3";
     gap: 1.5rem;
 }
 
-.depoimentos__autor--foto {
-    max-width: 5.375rem;
-}
-
-.depoimentos__autor--nome {
-    color: var(--grafite, #222);
-    text-align: center;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 2rem;
-    margin-bottom: 0.5rem;
+.pagamento__imagens img:nth-of-type(3) {
+    grid-area: img3;
 }
 
 .footer__container {
@@ -246,7 +198,6 @@ span.material-symbols-outlined {
     font-style: normal;
     font-weight: 400;
     line-height: 2rem;
-    /* 160% */
 }
 
 .footer__social-media-container {
