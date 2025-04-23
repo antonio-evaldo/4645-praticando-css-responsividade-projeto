@@ -20,7 +20,14 @@
     <header class="cabecalho__container">
         <div class="cabecalho">
             <a href="" class="cabecalho__logo">
-                <img class="cabecalho__logo--icone" src="./img/logo-menor.png" alt="Logo da Jornada" />
+                <picture>
+                    <source
+                        srcset="./img/logo-maior.png"
+                        media="(min-width: 900px)"
+                    />
+
+                    <img class="cabecalho__logo--icone" src="./img/logo-menor.png" alt="Logo da Jornada" />
+                </picture>
             </a>
             <nav class="cabecalho__navegacao" role="navigation" aria-label="Navegação principal">
                 <ul class="cabecalho__navegacao--lista">
