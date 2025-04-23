@@ -51,12 +51,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    margin: 6.875rem auto;
+    margin: 6.875rem 3.75rem;
 }
 
 .container {
     max-width: 75rem;
     margin: 0 auto;
+    padding: 0 3.75rem;
 }
 
 .ofertas {
@@ -334,7 +335,7 @@ span.material-symbols-outlined {
 .footer__container {
     background: var(--preto);
     width: 100%;
-    padding: 2.5rem 0;
+    padding: 2rem 1.5rem;
     margin-top: -0.25rem;
 }
 
