@@ -81,9 +81,7 @@
 
 .depoimentos__titulo--sublinhado,
 .pagamento__titulo--sublinhado,
-.destinos__titulo--sublinhado,
-.busca__titulo--sublinhado,
-.ofertas__titulo--sublinhado {
+.busca__titulo--sublinhado {
     width: 11.25rem;
     height: 0.25rem;
     background: var(--vermelho);
@@ -95,96 +93,11 @@ img {
     max-width: 100%;
 }
 
-.ofertas__cards--grupo {
-    display: flex;
-    gap: 1.5rem;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.ofertas__cards--item {
-    display: flex;
-    padding: 1.5rem 0rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    border-radius: 1rem;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 1.5rem 2rem;
-    color: var(--branco);
-    flex: 1 0 calc(50% - 3rem);
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.ofertas__cards--japao {
-    background-image: url("./img/tokyo.png");
-}
-
-.ofertas__cards--san-andreas {
-    background-image: url("./img/san-andreas.png");
-}
-
-.ofertas__cards--paraiba {
-    background-image: url("./img/paraiba.png");
-}
-
-.ofertas__cards--manaus {
-    background-image: url("./img/manaus.png");
-}
-
-.ofertas__card--destino-tipo {
-    color: var(--branco, #FFF);
-    text-align: center;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2rem;
-    margin-bottom: 0.5rem;
-}
-
-.ofertas__card--destino-nome {
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin: 0;
-}
-
-.ofertas__card--preco {
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 1.5rem;
-}
-
-.destinos__item--botao,
-.ofertas__card--botao {
-    border-radius: 0.5rem;
-    background: var(--vermelho, #B81515);
-    padding: 1rem 3rem;
-    box-sizing: border-box;
-    display: inline-block;
-}
-
-.destinos__item--botao-texto,
-.ofertas__card--botao-texto {
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 2rem;
-    color: var(--branco, #FFF);
-}
-
 .busca__categorias {
-    display: flex;
-    align-items: stretch;
-    gap: 1.5rem;
     margin-bottom: 7rem;
+    
+    display: flex;
+    gap: 1.5rem;
 }
 
 .busca__categoria {
@@ -197,7 +110,6 @@ img {
     border-radius: 0.5rem;
     background: var(--cinza-claro, #F5F5F5);
     padding: 1.5rem 1rem;
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -245,43 +157,6 @@ span.material-symbols-outlined {
     font-weight: 400;
     line-height: 2rem;
     margin-bottom: 1.5rem;
-}
-
-.pagamento {
-    margin-bottom: 7rem;
-}
-
-.pagamento__imagens--grupo,
-.pagamento__condicoes {
-    display: flex;
-    gap: 1.5rem;
-}
-
-.pagamento__condicoes--destaque {
-    color: var(--grafite, #222);
-    font-size: 1.75rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 1.5rem;
-}
-
-.pagamento__condicoes--detalhes {
-    color: var(--grafite, #222);
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2rem;
-    width: 24rem;
-    max-width: 100%;
-}
-
-.pagamento__imagens--imagem-container {
-    flex: 1;
-}
-
-.pagamento__imagens--imagem-destaque {
-    margin-top: 1.25rem;
 }
 
 .pagamento__imagens--imagem {
