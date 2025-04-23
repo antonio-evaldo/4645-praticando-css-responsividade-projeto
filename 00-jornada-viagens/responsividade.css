@@ -6,4 +6,14 @@
   .botao-hamburguer {
     display: block;
   }
+
+  .container {
+    padding: 0 3.75rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 1.5rem;
+  }
 }
